@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CF4E3AE1C7F51BD007CC647 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF4E3AD1C7F51BD007CC647 /* main.m */; };
+		6CF4E3B11C7F51BD007CC647 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF4E3B01C7F51BD007CC647 /* AppDelegate.m */; };
+		6CF4E3B41C7F51BD007CC647 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF4E3B31C7F51BD007CC647 /* ViewController.m */; };
+		6CF4E3B71C7F51BD007CC647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF4E3B51C7F51BD007CC647 /* Main.storyboard */; };
+		6CF4E3B91C7F51BD007CC647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CF4E3B81C7F51BD007CC647 /* Assets.xcassets */; };
+		6CF4E3BC1C7F51BD007CC647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF4E3BA1C7F51BD007CC647 /* LaunchScreen.storyboard */; };
+		6CF4E3C71C7F51BD007CC647 /* ArdeeCollocationGoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF4E3C61C7F51BD007CC647 /* ArdeeCollocationGoTests.m */; };
+		6CF4E3D21C7F51BD007CC647 /* ArdeeCollocationGoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF4E3D11C7F51BD007CC647 /* ArdeeCollocationGoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CF4E3C31C7F51BD007CC647 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CF4E3A11C7F51BC007CC647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CF4E3A81C7F51BD007CC647;
+			remoteInfo = ArdeeCollocationGo;
+		};
+		6CF4E3CE1C7F51BD007CC647 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CF4E3A11C7F51BC007CC647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CF4E3A81C7F51BD007CC647;
+			remoteInfo = ArdeeCollocationGo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CF4E3A91C7F51BD007CC647 /* ArdeeCollocationGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArdeeCollocationGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CF4E3AD1C7F51BD007CC647 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CF4E3AF1C7F51BD007CC647 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CF4E3B01C7F51BD007CC647 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CF4E3B21C7F51BD007CC647 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6CF4E3B31C7F51BD007CC647 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6CF4E3B61C7F51BD007CC647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CF4E3B81C7F51BD007CC647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CF4E3BB1C7F51BD007CC647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CF4E3BD1C7F51BD007CC647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CF4E3C21C7F51BD007CC647 /* ArdeeCollocationGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArdeeCollocationGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CF4E3C61C7F51BD007CC647 /* ArdeeCollocationGoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArdeeCollocationGoTests.m; sourceTree = "<group>"; };
+		6CF4E3C81C7F51BD007CC647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CF4E3CD1C7F51BD007CC647 /* ArdeeCollocationGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArdeeCollocationGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CF4E3D11C7F51BD007CC647 /* ArdeeCollocationGoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArdeeCollocationGoUITests.m; sourceTree = "<group>"; };
+		6CF4E3D31C7F51BD007CC647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CF4E3A61C7F51BD007CC647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CF4E3BF1C7F51BD007CC647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CF4E3CA1C7F51BD007CC647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CF4E3A01C7F51BC007CC647 = {
+			isa = PBXGroup;
+			children = (
+				6CF4E3AB1C7F51BD007CC647 /* ArdeeCollocationGo */,
+				6CF4E3C51C7F51BD007CC647 /* ArdeeCollocationGoTests */,
+				6CF4E3D01C7F51BD007CC647 /* ArdeeCollocationGoUITests */,
+				6CF4E3AA1C7F51BD007CC647 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CF4E3AA1C7F51BD007CC647 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CF4E3A91C7F51BD007CC647 /* ArdeeCollocationGo.app */,
+				6CF4E3C21C7F51BD007CC647 /* ArdeeCollocationGoTests.xctest */,
+				6CF4E3CD1C7F51BD007CC647 /* ArdeeCollocationGoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CF4E3AB1C7F51BD007CC647 /* ArdeeCollocationGo */ = {
+			isa = PBXGroup;
+			children = (
+				6CF4E3AF1C7F51BD007CC647 /* AppDelegate.h */,
+				6CF4E3B01C7F51BD007CC647 /* AppDelegate.m */,
+				6CF4E3B21C7F51BD007CC647 /* ViewController.h */,
+				6CF4E3B31C7F51BD007CC647 /* ViewController.m */,
+				6CF4E3B51C7F51BD007CC647 /* Main.storyboard */,
+				6CF4E3B81C7F51BD007CC647 /* Assets.xcassets */,
+				6CF4E3BA1C7F51BD007CC647 /* LaunchScreen.storyboard */,
+				6CF4E3BD1C7F51BD007CC647 /* Info.plist */,
+				6CF4E3AC1C7F51BD007CC647 /* Supporting Files */,
+			);
+			path = ArdeeCollocationGo;
+			sourceTree = "<group>";
+		};
+		6CF4E3AC1C7F51BD007CC647 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CF4E3AD1C7F51BD007CC647 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CF4E3C51C7F51BD007CC647 /* ArdeeCollocationGoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CF4E3C61C7F51BD007CC647 /* ArdeeCollocationGoTests.m */,
+				6CF4E3C81C7F51BD007CC647 /* Info.plist */,
+			);
+			path = ArdeeCollocationGoTests;
+			sourceTree = "<group>";
+		};
+		6CF4E3D01C7F51BD007CC647 /* ArdeeCollocationGoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6CF4E3D11C7F51BD007CC647 /* ArdeeCollocationGoUITests.m */,
+				6CF4E3D31C7F51BD007CC647 /* Info.plist */,
+			);
+			path = ArdeeCollocationGoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CF4E3A81C7F51BD007CC647 /* ArdeeCollocationGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CF4E3D61C7F51BD007CC647 /* Build configuration list for PBXNativeTarget "ArdeeCollocationGo" */;
+			buildPhases = (
+				6CF4E3A51C7F51BD007CC647 /* Sources */,
+				6CF4E3A61C7F51BD007CC647 /* Frameworks */,
+				6CF4E3A71C7F51BD007CC647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArdeeCollocationGo;
+			productName = ArdeeCollocationGo;
+			productReference = 6CF4E3A91C7F51BD007CC647 /* ArdeeCollocationGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CF4E3C11C7F51BD007CC647 /* ArdeeCollocationGoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CF4E3D91C7F51BD007CC647 /* Build configuration list for PBXNativeTarget "ArdeeCollocationGoTests" */;
+			buildPhases = (
+				6CF4E3BE1C7F51BD007CC647 /* Sources */,
+				6CF4E3BF1C7F51BD007CC647 /* Frameworks */,
+				6CF4E3C01C7F51BD007CC647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CF4E3C41C7F51BD007CC647 /* PBXTargetDependency */,
+			);
+			name = ArdeeCollocationGoTests;
+			productName = ArdeeCollocationGoTests;
+			productReference = 6CF4E3C21C7F51BD007CC647 /* ArdeeCollocationGoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6CF4E3CC1C7F51BD007CC647 /* ArdeeCollocationGoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CF4E3DC1C7F51BD007CC647 /* Build configuration list for PBXNativeTarget "ArdeeCollocationGoUITests" */;
+			buildPhases = (
+				6CF4E3C91C7F51BD007CC647 /* Sources */,
+				6CF4E3CA1C7F51BD007CC647 /* Frameworks */,
+				6CF4E3CB1C7F51BD007CC647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CF4E3CF1C7F51BD007CC647 /* PBXTargetDependency */,
+			);
+			name = ArdeeCollocationGoUITests;
+			productName = ArdeeCollocationGoUITests;
+			productReference = 6CF4E3CD1C7F51BD007CC647 /* ArdeeCollocationGoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CF4E3A11C7F51BC007CC647 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Ardee;
+				TargetAttributes = {
+					6CF4E3A81C7F51BD007CC647 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = L84JN7857E;
+					};
+					6CF4E3C11C7F51BD007CC647 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = L84JN7857E;
+						TestTargetID = 6CF4E3A81C7F51BD007CC647;
+					};
+					6CF4E3CC1C7F51BD007CC647 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = L84JN7857E;
+						TestTargetID = 6CF4E3A81C7F51BD007CC647;
+					};
+				};
+			};
+			buildConfigurationList = 6CF4E3A41C7F51BC007CC647 /* Build configuration list for PBXProject "ArdeeCollocationGo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CF4E3A01C7F51BC007CC647;
+			productRefGroup = 6CF4E3AA1C7F51BD007CC647 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CF4E3A81C7F51BD007CC647 /* ArdeeCollocationGo */,
+				6CF4E3C11C7F51BD007CC647 /* ArdeeCollocationGoTests */,
+				6CF4E3CC1C7F51BD007CC647 /* ArdeeCollocationGoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CF4E3A71C7F51BD007CC647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF4E3BC1C7F51BD007CC647 /* LaunchScreen.storyboard in Resources */,
+				6CF4E3B91C7F51BD007CC647 /* Assets.xcassets in Resources */,
+				6CF4E3B71C7F51BD007CC647 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CF4E3C01C7F51BD007CC647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CF4E3CB1C7F51BD007CC647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CF4E3A51C7F51BD007CC647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF4E3B41C7F51BD007CC647 /* ViewController.m in Sources */,
+				6CF4E3B11C7F51BD007CC647 /* AppDelegate.m in Sources */,
+				6CF4E3AE1C7F51BD007CC647 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CF4E3BE1C7F51BD007CC647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF4E3C71C7F51BD007CC647 /* ArdeeCollocationGoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CF4E3C91C7F51BD007CC647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF4E3D21C7F51BD007CC647 /* ArdeeCollocationGoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CF4E3C41C7F51BD007CC647 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CF4E3A81C7F51BD007CC647 /* ArdeeCollocationGo */;
+			targetProxy = 6CF4E3C31C7F51BD007CC647 /* PBXContainerItemProxy */;
+		};
+		6CF4E3CF1C7F51BD007CC647 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CF4E3A81C7F51BD007CC647 /* ArdeeCollocationGo */;
+			targetProxy = 6CF4E3CE1C7F51BD007CC647 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CF4E3B51C7F51BD007CC647 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CF4E3B61C7F51BD007CC647 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CF4E3BA1C7F51BD007CC647 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CF4E3BB1C7F51BD007CC647 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CF4E3D41C7F51BD007CC647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6CF4E3D51C7F51BD007CC647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CF4E3D71C7F51BD007CC647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ArdeeCollocationGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.9c324.Train.ArdeeCollocationGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6CF4E3D81C7F51BD007CC647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ArdeeCollocationGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.9c324.Train.ArdeeCollocationGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6CF4E3DA1C7F51BD007CC647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ArdeeCollocationGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.9c324.Train.ArdeeCollocationGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArdeeCollocationGo.app/ArdeeCollocationGo";
+			};
+			name = Debug;
+		};
+		6CF4E3DB1C7F51BD007CC647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ArdeeCollocationGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.9c324.Train.ArdeeCollocationGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArdeeCollocationGo.app/ArdeeCollocationGo";
+			};
+			name = Release;
+		};
+		6CF4E3DD1C7F51BD007CC647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ArdeeCollocationGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.9c324.Train.ArdeeCollocationGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ArdeeCollocationGo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6CF4E3DE1C7F51BD007CC647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ArdeeCollocationGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.9c324.Train.ArdeeCollocationGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ArdeeCollocationGo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CF4E3A41C7F51BC007CC647 /* Build configuration list for PBXProject "ArdeeCollocationGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CF4E3D41C7F51BD007CC647 /* Debug */,
+				6CF4E3D51C7F51BD007CC647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CF4E3D61C7F51BD007CC647 /* Build configuration list for PBXNativeTarget "ArdeeCollocationGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CF4E3D71C7F51BD007CC647 /* Debug */,
+				6CF4E3D81C7F51BD007CC647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6CF4E3D91C7F51BD007CC647 /* Build configuration list for PBXNativeTarget "ArdeeCollocationGoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CF4E3DA1C7F51BD007CC647 /* Debug */,
+				6CF4E3DB1C7F51BD007CC647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6CF4E3DC1C7F51BD007CC647 /* Build configuration list for PBXNativeTarget "ArdeeCollocationGoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CF4E3DD1C7F51BD007CC647 /* Debug */,
+				6CF4E3DE1C7F51BD007CC647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CF4E3A11C7F51BC007CC647 /* Project object */;
+}
