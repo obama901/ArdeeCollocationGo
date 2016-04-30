@@ -7,6 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "TabViewController.h"
+#import "HomeViewController.h"
+#import "QuickyValueViewController.h"
+#import "WorthySellViewController.h"
+#import "GreatThingViewController.h"
+#import "PersonCenterViewController.h"
 
 @interface AppDelegate ()
 
@@ -15,8 +21,17 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    TabViewController *tabVC = [[TabViewController alloc]init];
+     HomeViewController *homeVC = [[UIStoryboard storyboardWithName:@"HomeStoryboard" bundle:nil]instantiateViewControllerWithIdentifier:@"home"];
+    QuickyValueViewController *quickyVC = [[UIStoryboard storyboardWithName:@"QuickyStoryboard" bundle:nil ]instantiateViewControllerWithIdentifier:@"quicky"];
+    WorthySellViewController *worthyVC = [[UIStoryboard storyboardWithName:@"WorthyStoryboard" bundle:nil]instantiateViewControllerWithIdentifier:@"worthy"];
+    GreatThingViewController *greatVC = [[UIStoryboard storyboardWithName:@"GreatStoryboard" bundle:nil]instantiateViewControllerWithIdentifier:@"greatThing"];
+    PersonCenterViewController *personVC = [[UIStoryboard storyboardWithName:@"PersonStoryboard" bundle:nil]instantiateViewControllerWithIdentifier:@"personVC"];
+    tabVC.viewControllers = @[homeVC,quickyVC,worthyVC,greatVC,personVC];
+    self.window.rootViewController = tabVC;
+    
     return YES;
 }
 
